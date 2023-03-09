@@ -3,4 +3,4 @@ for num in range(100):
     if num == 99:
         print(num)
     else:
-        print("0" + str(num) if num < 10 else num, end=", ")
+        print(f"{}".format('0' + str(i) if i < 10 else i), end=", ")

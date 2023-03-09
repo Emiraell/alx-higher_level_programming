@@ -2,5 +2,4 @@
 for c in range(97, 123):
     Asci_table_alpha = chr(c)
     ascii_Alpha = str(Asci_table_alpha)
-    print(ascii_Alpha, end="")
-
+    print("{}".format(ascii_Alpha), end="")
